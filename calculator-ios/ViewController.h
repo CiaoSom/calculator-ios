@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+-(IBAction)count;
+@property(nonatomic,weak)IBOutlet UITextField * textfield1;
+@property(nonatomic,weak)IBOutlet UITextField * textfield2;
 
-
+@property(nonatomic,weak)IBOutlet UILabel *result;
 @end
 
